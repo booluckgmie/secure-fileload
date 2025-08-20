@@ -15,7 +15,7 @@ app.use(cookieParser());
 const {
   JWT_SECRET = "0f6ade702b5cd881ac1b8e557ed51771",
   TOKEN_TTL_SECONDS = "900",
-  BASE_URL = "https://nexaflowdb.netlify.app",
+  BASE_URL = "http://localhost:8888/",
   COOKIE_SECURE = "false",
   NODE_ENV = "development",
   SMTP_HOST = "smtp.gmail.com",
